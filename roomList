@@ -1,0 +1,38 @@
+^
+rmCoordinates: 000000000
+rmName : The Test Room
+rmDescription: This is just a test for testing things
+rmExits: n, e, ne
+rmClimate: vaccuum
+
+@
+
+^
+
+rmCoordinates:000001000
+rmName: The Test Room - East
+rmDescription: This is the room to the east
+rmExits: n, w
+rmClimate: cold
+
+@
+
+^
+
+rmCoordinates: 001000000
+rmName: The Test Room - North
+rmDescription: This is the room to the North
+rmExits: s, e
+rmClimate: desert
+
+@
+
+^
+
+rmCoordinates: 001001000
+rmName: The Test Room - Northeast
+rmDescription: This is the room to the Northeast
+rmExits: sw, s, w
+rmClimate: jungle
+
+@
