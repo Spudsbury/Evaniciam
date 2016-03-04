@@ -1,0 +1,20 @@
+###KEY LEGEND###
+# mobID - Unique ID for the mob TYPE
+# mobName - Unique Name for this type of mob
+# mobRmDesc - Description of mob when in room view
+# mobLkDesc - Description of mob if you 'look' at it
+#
+#
+#
+#
+^
+mobID: 000
+mobName: Flying Spaghetti Monster
+mobRmDesc: A Disgusting Ball of Noodles is Seen Floating at Eye Level
+mobLkDesc: Really not sure what to make of this, but you feel compelled to worship this metric shitton of pasta. Kneel, fucker.
+mobStr: 1000
+mobDex: 500
+mobInt: 
+mobWis:
+mobEnd
+@
