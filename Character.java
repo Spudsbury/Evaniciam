@@ -1,5 +1,4 @@
-package com.company;
-
+package Evanaciam;
 import com.sun.media.jfxmedia.events.PlayerStateEvent;
 import com.sun.org.glassfish.external.statistics.Stats;
 
@@ -31,10 +30,13 @@ public class Character {
 
 
     //These methods when called will return the players stats
-    public void returnCha(){
-        System.out.println(charisma.getStat());
-    }
-    public void returnInt(){
-        System.out.println(intellect.getStat());
+    public void returnStats(){
+        //will return all stats
+        System.out.println("Charisma: " + charisma.getStat());
+        System.out.println("Wisdom: " + wisdom.getStat());
+        System.out.println("Strength:" + strength.getStat());
+        System.out.println("Intellect: " + intellect.getStat());
+        System.out.println("Constitution: " + constitution.getStat());
+        System.out.println("Dexterity: " + dexterity.getStat());
     }
 }

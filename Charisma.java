@@ -1,13 +1,13 @@
-package com.company;
+package Evanaciam;
 
 /**
  * Created by corbot on 2/27/2016.
  */
 public class Charisma {
 
-    private int stat=8;
+    private int stat;
 
-    public Charisma(int stat ) {
+    public Charisma() {
         this.stat = 8;
     }
 

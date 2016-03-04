@@ -1,10 +1,12 @@
-package com.company;
+package Evanaciam;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
 public class Main {
     static Scanner input = new Scanner(System.in);
+    public static final String ANSI_RESET = "\u001b[0m";
+    public static final String ANSI_RED = "\u001b[31m";
     public static void main(String[] args) {
 
         //Start asking player info here
@@ -29,7 +31,8 @@ public class Main {
             if (gender.equals("male") || gender.equals("female")) {
                 break;  //breaks out of loop once validated.
             }
-            if(!"male".equals(gender) || !"female".equals(gender)){
+            else{
+
                 System.out.println("Please enter a valid gender");
             System.out.println(name + " are you male or female?");
                 gender = input.next().toLowerCase();}
@@ -51,7 +54,7 @@ public class Main {
         Intellect playerInt = new Intellect();
         Wisdom playerWis = new Wisdom();
         Constitution playerCon = new Constitution();
-        Charisma playerCha = new Charisma(8);
+        Charisma playerCha = new Charisma();
 
         //Create the master class
         CharacterProfile newProfile = new CharacterProfile(name, gender, race);
@@ -66,13 +69,15 @@ public class Main {
 
 
         boolean gameOver = false;
-        System.out.println("Do you want to quit? [Q]");
+        System.out.println("You open your eyes to find yourself in a quaint room" + "\nWhat would you like to do?");
+        System.out.println("\u001B[36m\u001B[1mStand | Go back to sleep | Sit up" + ANSI_RESET);
         //while loop to keep the game running until quit
 while (!gameOver){
     String response = input.nextLine().toLowerCase();   //we use to lower case so we can process all entries regardless of input
     if(response.equals("q")){
         gameOver=true;
 }
+
 
 
 

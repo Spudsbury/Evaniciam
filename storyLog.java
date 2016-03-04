@@ -1,4 +1,4 @@
-package com.company;
+package Evanaciam;
 
 import com.sun.media.jfxmedia.events.PlayerStateEvent;
 import com.sun.org.glassfish.external.statistics.Stats;
@@ -15,6 +15,6 @@ public class storyLog {
 
 
 //Method to use when milestones are reached. Pass several variables into it to generate unique identifier
-  public storeLog(){
+  public void storeLog(){
   }
 }
