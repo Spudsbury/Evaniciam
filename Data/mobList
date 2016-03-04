@@ -3,9 +3,9 @@
 # mobName - Unique Name for this type of mob
 # mobRmDesc - Description of mob when in room view
 # mobLkDesc - Description of mob if you 'look' at it
-#
-#
-#
+# mobStr-Cha - stats
+# mobAbi - Ability list by ID
+# mobItem - Items list by ID
 #
 ^
 mobID: 000
@@ -14,7 +14,10 @@ mobRmDesc: A Disgusting Ball of Noodles is Seen Floating at Eye Level
 mobLkDesc: Really not sure what to make of this, but you feel compelled to worship this metric shitton of pasta. Kneel, fucker.
 mobStr: 1000
 mobDex: 500
-mobInt: 
-mobWis:
-mobEnd
+mobInt: 300 
+mobWis: 300
+mobCon: 1000
+mobCha: 2
+mobAbi: 000, 001, 002 .... 
+mobItem: 000,001, 002
 @
